@@ -3,11 +3,7 @@
   margin: 0 auto;
 }
 
-.App {
-display: grid;
-grid-template-columns: 3fr 2fr;
-grid-gap: 10px; 
-}
+
 .nav {
   height: 30px;
   background-color: #fff;
@@ -22,31 +18,11 @@ h3 {
   font-size: small;
   font-weight: bold;
 }
-.card {
-  padding: 10px;
-    border-radius: 4px;
-    font-size: 14px;
-    background-color: #fff;
-    border: thin solid #ddd;
-    margin-bottom: 5px;
-}
+
 .heading {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   margin-bottom: 8px;
 }
-.main {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr ;
-grid-gap: 10px;
-}
-.main h3 {
 
-}
-.aside {
-  display: grid;
-  grid-template-columns: auto auto  ;
-  grid-gap: 10px;
-  height: 100px;
-}
