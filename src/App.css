@@ -1,38 +1,52 @@
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .App {
+display: grid;
+grid-template-columns: 3fr 2fr;
+grid-gap: 10px; 
+}
+.nav {
+  height: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+}
+.nav h2{
   text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  font-size: small;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    border: thin solid #ddd;
+    margin-bottom: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 8px;
 }
-
-.App-link {
-  color: #61dafb;
+.main {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-gap: 10px;
 }
+.main h3 {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.aside {
+  display: grid;
+  grid-template-columns: auto auto  ;
+  grid-gap: 10px;
+  height: 100px;
 }
