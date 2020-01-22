@@ -15,7 +15,6 @@ class App extends Component {
         <nav className='nav'>
           <h2 className='wrapper'>InnRoad</h2>
         </nav>
-
         <div className='wrapper'>
           <div className='heading'>
             {headings.map((heading, index) => (
@@ -24,7 +23,6 @@ class App extends Component {
           </div>
           <Card />
         </div>
-
       </div>
     );
   }
