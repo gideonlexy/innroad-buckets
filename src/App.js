@@ -5,11 +5,11 @@ import './App.css';
 
 class App extends Component {
   state = {
-    heading: ['Small Features', 'Booking Engine', 'Rates', 'CC Gateway', 'CRM/Email Marketing']
+    headings: ['Small Features', 'Booking Engine', 'Rates', 'CC Gateway', 'CRM/Email Marketing']
   }
 
   render() {
-    const { heading } = this.state
+    const { headings } = this.state
     return (
       <div>
         <nav className='nav'>
@@ -18,8 +18,8 @@ class App extends Component {
 
         <div className='wrapper'>
           <div className='heading'>
-            {heading.map((head, index) => (
-              <h3 key={index}>{head}</h3>
+            {headings.map((heading, index) => (
+              <h3 key={index}>{heading}</h3>
             ))}
           </div>
           <Card />
