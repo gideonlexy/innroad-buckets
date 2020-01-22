@@ -4,9 +4,12 @@ import Card from './components/card/card.component'
 import './App.css';
 
 class App extends Component {
+  state = {
+    heading: ['Small Features', 'Booking Engine', 'Rates', 'CC Gateway', 'CRM/Email Marketing']
+  }
 
   render() {
-
+    const { heading } = this.state
     return (
       <div>
         <nav className='nav'>
@@ -15,11 +18,9 @@ class App extends Component {
 
         <div className='wrapper'>
           <div className='heading'>
-            <h3>Small Features</h3>
-            <h3>Booking Engine</h3>
-            <h3>Rates</h3>
-            <h3>CC Gateway</h3>
-            <h3>CRM/Email Marketing</h3>
+            {heading.map((head, index) => (
+              <h3 key={index}>{head}</h3>
+            ))}
           </div>
           <Card />
         </div>
