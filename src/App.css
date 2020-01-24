@@ -14,15 +14,5 @@
   text-align: center;
   
 }
-h3 {
-  font-size: small;
-  font-weight: bold;
-}
 
-.heading {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin-bottom: 8px;
-}
 

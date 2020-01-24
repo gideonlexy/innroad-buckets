@@ -7,20 +7,31 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-gap: 10px;
+ 
     }
     
-    .card {
+.card {
         padding: 10px;
-          border-radius: 4px;
-          font-size: 14px;
-          background-color: #fff;
-          border: thin solid #ddd;
-          margin-bottom: 5px;
+        border-radius: 4px;
+        font-size: 14px;
+        background-color: #fff;
+        border: thin solid #ddd;
+        margin-bottom: 5px;
+          
       }
-
-      .aside {
+h3 {
+        font-size: small;
+        font-weight: bold;
+    }
+.aside  {
+    display: grid;
+    grid-template-columns: auto auto  ;
+    grid-gap: 10px;
+    height: 100px;
+}
+.heading {
         display: grid;
-        grid-template-columns: auto auto  ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
-        height: 100px;
+        margin-bottom: 8px;
       }
